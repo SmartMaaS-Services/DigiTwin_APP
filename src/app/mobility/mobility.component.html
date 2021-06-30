@@ -1,0 +1,48 @@
+<div class="container mobility overflow-auto">
+    <h2>{{stationName}}</h2>
+    <div class="card p-3">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><fa-icon [icon]="faMapMarkerAlt" [fixedWidth]="true" [styles]="{color: 'blue'}"></fa-icon></span>
+                <span class="input-group-text" style="width: 150px;">Mobilitätsregion:</span>
+            </div>
+            <input type="text" class="form-control" readonly [value]="regionName">
+        </div>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><fa-icon [icon]="faInfo" [fixedWidth]="true" [styles]="{color: 'blue'}"></fa-icon></span>
+                <span class="input-group-text" style="width: 150px;">Mobilitätsstation:</span>
+            </div>
+            <input type="text" class="form-control" readonly [value]="stationName">
+        </div>
+    </div>
+    <div class="list-group mt-3 mb-1">
+        <div *ngFor="let info of serviceInfo" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1 text-kielregion">{{info.category}}</h5>
+                <small><fa-icon class="mx-1" [icon]="faRss" [fixedWidth]="true" [styles]="{color: '#95C11F'}"></fa-icon></small>
+            </div>
+            <div *ngFor="let data of info.data">
+                <div *ngFor="let realtime of data.realtime" class="my-2">
+                    <span *ngIf="realtime.icon=='faBicycle'"><fa-icon class="mx-1" [icon]="faBicycle" [fixedWidth]="true" [styles]="{color: 'green'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faBus'"><fa-icon class="mx-1" [icon]="faBus" [fixedWidth]="true" [styles]="{color: 'lightskyblue'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faTrain'"><fa-icon class="mx-1" [icon]="faTrain" [fixedWidth]="true" [styles]="{color: 'blue'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faMotorcycle'"><fa-icon class="mx-1" [icon]="faMotorcycle" [fixedWidth]="true" [styles]="{color: 'orange'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faCar'"><fa-icon class="mx-1" [icon]="faCar" [fixedWidth]="true" [styles]="{color: 'red'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faTaxi'"><fa-icon class="mx-1" [icon]="faTaxi" [fixedWidth]="true" [styles]="{color: 'violet'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faThermometerHalf'"><fa-icon class="mx-1" [icon]="faThermometerHalf" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faCloudRain'"><fa-icon class="mx-1" [icon]="faCloudRain" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faTemperatureHigh'"><fa-icon class="mx-1" [icon]="faTemperatureHigh" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faWind'"><fa-icon class="mx-1" [icon]="faWind" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faLocationArrow'"><fa-icon class="mx-1" [icon]="faLocationArrow" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span *ngIf="realtime.icon=='faSmog'"><fa-icon class="mx-1" [icon]="faSmog" [fixedWidth]="true" [styles]="{color: 'gold'}"></fa-icon></span>
+                    <span class="mx-2">{{realtime.name}}</span>
+                    <span class="text-kielregion">{{realtime.value}}</span>
+                </div>
+                <div *ngFor="let static of data.static" class="my-1">
+                    <small class="text-muted">{{static}}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.mobility {
+	position: absolute;
+	border: 2px solid darkgray;
+	padding: 20px;
+	top: 80px;
+	right: 20px;
+	min-width: 500px;
+	width: 20%;
+	max-height: 80%;
+	z-index: 500;
+	background-color: white;
+	color: #95C11F;
+}
+
+.service-header {
+	background-color: #95C11F;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.service-info {
+	color: black;
+	font-weight: normal;
+}
+
+.bg-kielregion {
+	background-color: #95C11F;
+}
+
+.text-kielregion {
+	color: #95C11F;
+}

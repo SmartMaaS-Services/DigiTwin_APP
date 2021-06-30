@@ -1,0 +1,956 @@
+[
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20000",
+        "type": "BikeHireDockingStation",
+        "name": "Alte Mu/Brunswiker Str.",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.141528,
+                54.327583
+            ]
+        },
+        "availableBikeNumber": 17,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20001",
+        "type": "BikeHireDockingStation",
+        "name": "Alter Markt",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.139472,
+                54.322806
+            ]
+        },
+        "availableBikeNumber": 7,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20002",
+        "type": "BikeHireDockingStation",
+        "name": "Andreas-Gayk-Straße",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.133833,
+                54.318417
+            ]
+        },
+        "availableBikeNumber": 7,
+        "totalSlotNumber": 5,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20003",
+        "type": "BikeHireDockingStation",
+        "name": "Anleger Dietrichsdorf",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.178556,
+                54.329611
+            ]
+        },
+        "availableBikeNumber": 5,
+        "totalSlotNumber": 5,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20004",
+        "type": "BikeHireDockingStation",
+        "name": "Blücherplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.136861,
+                54.341722
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20005",
+        "type": "BikeHireDockingStation",
+        "name": "Anleger Reventlou",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.15225,
+                54.333833
+            ]
+        },
+        "availableBikeNumber": 9,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20006",
+        "type": "BikeHireDockingStation",
+        "name": "Bullbrücke",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.233583,
+                54.397583
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20007",
+        "type": "BikeHireDockingStation",
+        "name": "Bahnhof Suchsdorf",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.090778,
+                54.349806
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20009",
+        "type": "BikeHireDockingStation",
+        "name": "Christian-Albrechts-Platz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.123222,
+                54.339222
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20011",
+        "type": "BikeHireDockingStation",
+        "name": "CAU Sportstätten",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.111139,
+                54.343444
+            ]
+        },
+        "availableBikeNumber": 10,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20012",
+        "type": "BikeHireDockingStation",
+        "name": "CAU Universitätsbibliothek",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.112167,
+                54.346444
+            ]
+        },
+        "availableBikeNumber": 1,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20013",
+        "type": "BikeHireDockingStation",
+        "name": "Exerzierplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.128389,
+                54.321583
+            ]
+        },
+        "availableBikeNumber": 9,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20014",
+        "type": "BikeHireDockingStation",
+        "name": "Marine-Ehrenmal",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.228306,
+                54.411667
+            ]
+        },
+        "availableBikeNumber": 1,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20015",
+        "type": "BikeHireDockingStation",
+        "name": "Hansastr./Gutenbergstr.",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.124861,
+                54.332111
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20016",
+        "type": "BikeHireDockingStation",
+        "name": "Hauptbahnhof",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.132278,
+                54.315972
+            ]
+        },
+        "availableBikeNumber": 17,
+        "totalSlotNumber": 10,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20017",
+        "type": "BikeHireDockingStation",
+        "name": "Holsten-/Hafenstraße",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.135389,
+                54.321
+            ]
+        },
+        "availableBikeNumber": 7,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20018",
+        "type": "BikeHireDockingStation",
+        "name": "Hafen Laboe",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.219583,
+                54.403583
+            ]
+        },
+        "availableBikeNumber": 8,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20019",
+        "type": "BikeHireDockingStation",
+        "name": "Hörnbad",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.135389,
+                54.30875
+            ]
+        },
+        "availableBikeNumber": 12,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20020",
+        "type": "BikeHireDockingStation",
+        "name": "Kirchhofallee",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.120583,
+                54.316194
+            ]
+        },
+        "availableBikeNumber": 5,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20021",
+        "type": "BikeHireDockingStation",
+        "name": "Kronshagen Rathaus",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.08535,
+                54.332176
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20022",
+        "type": "BikeHireDockingStation",
+        "name": "Muthesius Kunsthochschule",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.128333,
+                54.327389
+            ]
+        },
+        "availableBikeNumber": 2,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20023",
+        "type": "BikeHireDockingStation",
+        "name": "Rathaus Waisenhofstraße",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.132444,
+                54.321722
+            ]
+        },
+        "availableBikeNumber": 6,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20024",
+        "type": "BikeHireDockingStation",
+        "name": "Rathausplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.133861,
+                54.322361
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 10,
+        "freeSlotNumber": 10,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20025",
+        "type": "BikeHireDockingStation",
+        "name": "RBZ Wirtschaft",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.126611,
+                54.340722
+            ]
+        },
+        "availableBikeNumber": 1,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20026",
+        "type": "BikeHireDockingStation",
+        "name": "Schönkirchen Gemeindehaus",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.223028,
+                54.339056
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20027",
+        "type": "BikeHireDockingStation",
+        "name": "Fähranleger Möltenort",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.194806,
+                54.37575
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20028",
+        "type": "BikeHireDockingStation",
+        "name": "Tilsiter Platz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.170305,
+                54.323414
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20029",
+        "type": "BikeHireDockingStation",
+        "name": "Umsteiger",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.131167,
+                54.314861
+            ]
+        },
+        "availableBikeNumber": 7,
+        "totalSlotNumber": 10,
+        "freeSlotNumber": 3,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20030",
+        "type": "BikeHireDockingStation",
+        "name": "Vinetaplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.146972,
+                54.311417
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20031",
+        "type": "BikeHireDockingStation",
+        "name": "Wellingdorf Stadtteilzentrum",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.183028,
+                54.326139
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20032",
+        "type": "BikeHireDockingStation",
+        "name": "Westring/Eckernförder Str.",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.11792540550232,
+                54.32854349608253
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20033",
+        "type": "BikeHireDockingStation",
+        "name": "Wilhelmplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.122278,
+                54.323583
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20035",
+        "type": "BikeHireDockingStation",
+        "name": "Dreiecksplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.134417,
+                54.328528
+            ]
+        },
+        "availableBikeNumber": 8,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20036",
+        "type": "BikeHireDockingStation",
+        "name": "Mönkeberg",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.178583,
+                54.351528
+            ]
+        },
+        "availableBikeNumber": 6,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20037",
+        "type": "BikeHireDockingStation",
+        "name": "CITTI-PARK",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.099722,
+                54.311667
+            ]
+        },
+        "availableBikeNumber": 8,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20038",
+        "type": "BikeHireDockingStation",
+        "name": "KielRegion GmbH",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.122619271278381,
+                54.34386250885687
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20046",
+        "type": "BikeHireDockingStation",
+        "name": "KiTa Fußsteigkoppel",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.090524,
+                54.342126
+            ]
+        },
+        "availableBikeNumber": 13,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20039",
+        "type": "BikeHireDockingStation",
+        "name": "Anleger Friedrichsort",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.177167,
+                54.390389
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20040",
+        "type": "BikeHireDockingStation",
+        "name": "Dataport/FHVD",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.129,
+                54.401917
+            ]
+        },
+        "availableBikeNumber": 8,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20042",
+        "type": "BikeHireDockingStation",
+        "name": "Stadtteilzentrum Pries",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.173139,
+                54.395472
+            ]
+        },
+        "availableBikeNumber": 5,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20043",
+        "type": "BikeHireDockingStation",
+        "name": "MELUND / Olympia-Hochhaus",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.131611,
+                54.35525
+            ]
+        },
+        "availableBikeNumber": 5,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20044",
+        "type": "BikeHireDockingStation",
+        "name": "Kitz - Kieler Innovations- und Technologiezentrum",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.11940062046051,
+                54.334658649663105
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20050",
+        "type": "BikeHireDockingStation",
+        "name": "Bahnhof Oppendorf",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.207911,
+                54.326055
+            ]
+        },
+        "availableBikeNumber": 6,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20051",
+        "type": "BikeHireDockingStation",
+        "name": "Rathaus Altenholz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.136875,
+                54.386203
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20052",
+        "type": "BikeHireDockingStation",
+        "name": "thyssenkrupp Marine Systems",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.15131,
+                54.316436
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20053",
+        "type": "BikeHireDockingStation",
+        "name": "Bunsenstr. / Edisonstr.",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.158546,
+                54.276878
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20054",
+        "type": "BikeHireDockingStation",
+        "name": "Braunstraße",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.145683,
+                54.280466
+            ]
+        },
+        "availableBikeNumber": 1,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20055",
+        "type": "BikeHireDockingStation",
+        "name": "Neumeimersdorf - Grot Steenbusch",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.130510330200195,
+                54.282965585844664
+            ]
+        },
+        "availableBikeNumber": 3,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20008",
+        "type": "BikeHireDockingStation",
+        "name": "Bernhard-Minetti-Platz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.133126,
+                54.337864
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20010",
+        "type": "BikeHireDockingStation",
+        "name": "Kuhlacker",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.143565,
+                54.285725
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20056",
+        "type": "BikeHireDockingStation",
+        "name": "KVG Betriebshof Diedrichstraße",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.136963,
+                54.302799
+            ]
+        },
+        "availableBikeNumber": 11,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20057",
+        "type": "BikeHireDockingStation",
+        "name": "Rungholtplatz",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.076831,
+                54.361297
+            ]
+        },
+        "availableBikeNumber": 4,
+        "totalSlotNumber": 0,
+        "freeSlotNumber": 0,
+        "status": "working"
+    },
+    {
+        "id": "urn:ngsi:BikeHireDockingStation:KielRegion:20072",
+        "type": "BikeHireDockingStation",
+        "name": "Sophienhof",
+        "description": "Sprottenflotte",
+        "provider": "KielRegion",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                10.129724445397867,
+                54.316629459849004
+            ]
+        },
+        "availableBikeNumber": 0,
+        "totalSlotNumber": 10,
+        "freeSlotNumber": 10,
+        "status": "working"
+    }
+]

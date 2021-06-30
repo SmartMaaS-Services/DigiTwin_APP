@@ -1,0 +1,25 @@
+.routing {
+	position: absolute;
+	border: 2px solid darkgray;
+	padding: 20px;
+	top: 80px;
+	left: 20px;
+	min-width: 500px;
+	width: 20%;
+	max-height: 80%;
+	z-index: 500;
+	background-color: white;
+	color: #95C11F;
+}
+
+.trip-selected {
+	background-color: rgba(149, 193, 31, 0.05);
+}
+
+.bg-kielregion {
+	background-color: #95C11F;
+}
+
+.text-kielregion {
+	color: #95C11F;
+}

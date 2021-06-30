@@ -1,0 +1,39 @@
+<div class="map-container">
+    <div class="map-header container-fluid">
+        <div class="row p-2 align-items-center">
+            <div class="col text-left text-white align-items-center">
+                <h3>KielRegion</h3>
+            </div>
+            <div class="text-right align-items-center">
+                <div class="btn-toolbar mr-3" role="toolbar">
+                    <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-primary square p-2" data-toggle="tooltip" data-placement="bottom" title="Routenplanung" (click)="toggleRouting()"><fa-icon [icon]="faDirections" [fixedWidth]="true"></fa-icon></button>
+                    </div>
+                    <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-secondary square p-1 mr-1" data-toggle="tooltip" data-placement="bottom" title="Zoom in" (click)="zoomIn()"><fa-icon [icon]="faPlus" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-secondary square p-1" data-toggle="tooltip" data-placement="bottom" title="Zoom out" (click)="zoomOut()"><fa-icon [icon]="faMinus" [fixedWidth]="true"></fa-icon></button>
+                    </div>
+                    <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-primary square p-2" data-toggle="tooltip" data-placement="bottom" title="ÖPNV" (click)="togglePublicTransport()"><fa-icon [icon]="faLayerGroup" [fixedWidth]="true"></fa-icon></button>
+                    </div>
+                    <div class="btn-group mr-2">
+                        <button type="button" class="btn btn-info square p-2 mr-1" data-toggle="tooltip" data-placement="bottom" title="Sprottenflotte" (click)="toggleNextbike()"><fa-icon [icon]="faBicycle" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-info square p-2 mr-1" data-toggle="tooltip" data-placement="bottom" title="KVG" (click)="toggleKVG()"><fa-icon [icon]="faBus" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-info square p-2 mr-1" data-toggle="tooltip" data-placement="bottom" title="VKP" (click)="toggleVKP()"><fa-icon [icon]="faBus" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-info square p-2 mr-1" data-toggle="tooltip" data-placement="bottom" title="Autokraft" (click)="toggleAK()"><fa-icon [icon]="faBus" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-info square p-2" data-toggle="tooltip" data-placement="bottom" title="DB Regio" (click)="toggleDB()"><fa-icon [icon]="faTrain" [fixedWidth]="true"></fa-icon></button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary square p-2 mr-1" data-toggle="tooltip" data-placement="bottom" title="Mobilitätsregion" (click)="centerMap()"><fa-icon [icon]="faMapMarkerAlt" [fixedWidth]="true" [fixedWidth]="true" [fixedWidth]="true"></fa-icon></button>
+                        <button type="button" class="btn btn-primary square p-2" data-toggle="tooltip" data-placement="bottom" title="Mobilitätsstation" (click)="toggleMobility()"><fa-icon [icon]="faInfo" [fixedWidth]="true" [fixedWidth]="true" [fixedWidth]="true"></fa-icon></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map-content">
+        <div id="map"></div>
+    </div>
+    <app-mobility *ngIf="showMobility"></app-mobility>
+    <app-routing *ngIf="showRouting" [startLocation]="startLocation" [endLocation]="endLocation" (displayTripEvent)="displayTripEvent($event)" (clearTripEvent)="clearTripEvent()"></app-routing>
+</div>

@@ -1,0 +1,43 @@
+<div class="container routing overflow-auto">
+  <h2>Routenplanung</h2>
+  <div class="card p-3">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><fa-icon [icon]="faMapMarkerAlt" [fixedWidth]="true" [styles]="{color: 'green'}"></fa-icon></span>
+        <span class="input-group-text" style="width: 110px;">Startpunkt:</span>
+      </div>
+      <input type="text" class="form-control" readonly [value]="startPoint">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text"><fa-icon [icon]="faMapMarkerAlt" [fixedWidth]="true" [styles]="{color: 'red'}"></fa-icon></span>
+        <span class="input-group-text" style="width: 110px;">Endpunkt:</span>
+      </div>
+      <input type="text" class="form-control" readonly [value]="endPoint">
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn bg-kielregion text-white p-2" data-toggle="tooltip" data-placement="bottom" title="Routen berechnen" (click)="getRoutes()"><strong>Routenplanung</strong></button>
+    </div>
+  </div>
+  <div *ngIf="showTripInfo">
+    <div class="list-group mt-3 mb-1">
+      <button *ngFor="let info of tripInfo" class="list-group-item list-group-item-action" [ngClass]="[(info.selected) ? 'trip-selected' : '']" (click)="selectTripInfo(info)">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1 text-kielregion">{{info.category}}</h5>
+          <small>Ankunft: {{info.arrivalTime}}</small>
+        </div>
+        <div class="my-2">
+          <span>Verkehrsmittel: </span>
+          <span *ngIf="info.useWalking"><fa-icon class="mx-1" [icon]="faWalking" [fixedWidth]="true" [styles]="{color: '#95C11F'}"></fa-icon></span>
+          <span *ngIf="info.useBicycle"><fa-icon class="mx-1" [icon]="faBicycle" [fixedWidth]="true" [styles]="{color: 'green'}"></fa-icon></span>
+          <span *ngIf="info.useBus"><fa-icon class="mx-1" [icon]="faBus" [fixedWidth]="true" [styles]="{color: 'lightskyblue'}"></fa-icon></span>
+          <span *ngIf="info.useTrain"><fa-icon class="mx-1" [icon]="faTrain" [fixedWidth]="true" [styles]="{color: 'blue'}"></fa-icon></span>
+          <span *ngIf="info.useMotorcycle"><fa-icon class="mx-1" [icon]="faMotorcycle" [fixedWidth]="true" [styles]="{color: 'orange'}"></fa-icon></span>
+          <span *ngIf="info.useCar"><fa-icon class="mx-1" [icon]="faCar" [fixedWidth]="true" [styles]="{color: 'red'}"></fa-icon></span>
+          <span *ngIf="info.useTaxi"><fa-icon class="mx-1" [icon]="faTaxi" [fixedWidth]="true" [styles]="{color: 'violet'}"></fa-icon></span>
+        </div>
+        <small class="text-muted">{{info.assessment}}</small>
+      </button>
+    </div>
+  </div>
+</div>

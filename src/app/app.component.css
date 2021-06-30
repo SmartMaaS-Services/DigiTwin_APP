@@ -1,0 +1,42 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 100%;
+	font-family: Nunito;
+	font-style: normal;
+}
+
+.map-header {
+	background-color: #95C11F;
+}
+
+.map-content {
+    border: 2px solid darkgrey;
+	flex: 1 1 auto;
+}
+
+#map {
+    height: 100%;
+	width: 100%;
+}
+
+.square {
+	width: 36px;
+	height: 36px;
+	border: 1px solid white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.kielregion {
+	background-color: #95C11F;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 0;
+}
